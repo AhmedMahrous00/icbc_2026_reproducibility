@@ -1,0 +1,8 @@
+openai>=1.0.0
+pandas
+tqdm
+scikit-learn
+numpy
+lightgbm
+requests
+google-genai
