@@ -1,7 +1,3 @@
-# Paper Metrics Bundle
-
-Minimal bundle to run `reproduce_paper_metrics.py`.
-
 ## Quick start
 ```bash
 cd /home/mahrouaa/pump_and_dump/paper_metrics_bundle
