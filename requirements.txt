@@ -1,0 +1,17 @@
+# Core data/metrics
+numpy>=1.24
+pandas>=2.0
+tqdm>=4.66
+scikit-learn>=1.3
+
+# Classical baseline
+lightgbm>=4.0
+
+# Transformer/NN pipelines
+torch>=2.2
+transformers>=4.40
+
+# API-based extraction/classification
+openai>=1.30
+requests>=2.31
+google-genai>=0.6.0
