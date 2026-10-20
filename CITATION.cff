@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the accompanying paper."
+title: "PumpSense reproducibility package"
+type: software
+authors:
+  - family-names: Mahrous
+    given-names: Ahmed
+repository-code: "https://github.com/AhmedMahrous00/icbc_2026_reproducibility"
+preferred-citation:
+  type: conference-paper
+  title: "PumpSense: Real-Time Detection and Target Extraction of Crypto Pump-and-Dumps on Telegram"
+  authors:
+    - family-names: Mahrous
+      given-names: Ahmed
+    - family-names: Di Pietro
+      given-names: Roberto
+  year: 2026
+  doi: "10.1109/icbc67748.2026.11575494"
+  url: "https://doi.org/10.1109/icbc67748.2026.11575494"
+  collection-title: "2026 IEEE International Conference on Blockchain and Cryptocurrency (ICBC)"
+  start: "1"
+  end: "9"

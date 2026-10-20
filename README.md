@@ -1,5 +1,10 @@
-## Reproducibility
-This repository reproduces main results from the paper "PumpSense: Detection and Target Extraction of Cryptocurrency Pump-and-Dump on Telegram" accepted at ICBC 2026.
+# PumpSense Reproducibility
+
+Code and data accompanying **PumpSense: Real-Time Detection and Target Extraction of Crypto Pump-and-Dumps on Telegram**, by Ahmed Mahrous and Roberto Di Pietro (IEEE ICBC 2026, pp. 1–9).
+
+[Published paper](https://doi.org/10.1109/ICBC67748.2026.11575494) · [Paper page](https://amahrous.com/papers/pumpsense/) · [Preprint](https://arxiv.org/abs/2605.09431) · [Archived code & data (v1.1)](https://doi.org/10.5281/zenodo.19616802)
+
+The repository includes Telegram channel data in `chat_data/`, detection and extraction scripts, and `reproduce_paper_metrics.py` for producing evaluation reports.
 
 ## Quick start
 ```bash
@@ -25,9 +30,14 @@ Outputs are written under `reports_*/`.
 
 If you use this repository, please cite our paper:
 
+```bibtex
 @inproceedings{mahrous2026pumpsense,
-  title={PumpSense: Detection and Target Extraction of Cryptocurrency Pump-and-Dump on Telegram},
-  author={Mahrous, Ahmed and others},
-  booktitle={Proceedings of the IEEE International Conference on Blockchain and Cryptocurrency (ICBC)},
-  year={2026}
+  title={PumpSense: Real-Time Detection and Target Extraction of Crypto Pump-and-Dumps on Telegram},
+  author={Mahrous, Ahmed and Di Pietro, Roberto},
+  booktitle={2026 IEEE International Conference on Blockchain and Cryptocurrency (ICBC)},
+  year={2026},
+  pages={1--9},
+  doi={10.1109/ICBC67748.2026.11575494},
+  url={https://doi.org/10.1109/ICBC67748.2026.11575494}
 }
+```
